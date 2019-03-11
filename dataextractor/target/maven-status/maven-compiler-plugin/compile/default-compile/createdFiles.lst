@@ -1,0 +1,8 @@
+com\dejavu\extarctor\FileDemoApplication.class
+com\dejavu\extarctor\FileStorageException.class
+com\dejavu\extarctor\MyFileNotFoundException.class
+com\dejavu\extarctor\FileStorageService.class
+com\dejavu\extarctor\FileStorageProperties.class
+com\dejavu\extarctor\FileConverterService.class
+com\dejavu\extarctor\UploadFileResponse.class
+com\dejavu\extarctor\FileController.class

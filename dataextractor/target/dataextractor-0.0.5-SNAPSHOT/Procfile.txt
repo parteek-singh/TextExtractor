@@ -1,0 +1,1 @@
+web: java -jar dataextractor-0.0.4-SNAPSHOT.jar

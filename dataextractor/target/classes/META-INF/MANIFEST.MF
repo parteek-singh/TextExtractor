@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: dataextractor
+Implementation-Version: 0.0.6-SNAPSHOT
+Built-By: pipa
+Implementation-Vendor-Id: com.dejavu
+Build-Jdk: 1.8.0_161
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/dataextractor
+Created-By: Maven Integration for Eclipse
+

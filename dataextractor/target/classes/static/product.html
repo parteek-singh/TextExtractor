@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+<title>Our Products</title>
+<link rel="stylesheet" href="/main.css" />
+<script
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script> 
+$(function(){
+  $("#header").load("header.html"); 
+  $("#footer").load("footer.html"); 
+});
+</script>
+</head>
+<body>
+	<noscript>
+		<h2>Sorry! Your browser doesn't support Javascript</h2>
+	</noscript>
+
+	<div id="header"></div>
+	
+
+	<div>
+		<div style="color:white;text-align: center;">
+			<div style="font-size: xx-large;padding-top: 2%;margin-bottom: -1%;">Pdftxt</div>
+			<span style="font-size: smaller;">Get complete text from any document (PDF or Images)</span>
+			<div style="font-size: medium;padding-top: 2%;">Please note: We provide restfull api for OCR of the document.Response will be in json or text format</div>
+		</div>
+		<div>
+			<div style="color:white;width: 500px;margin: auto;padding-top: 2%;">
+				<div>Upload Single File (demo)</div>
+				<form id="singleUploadForm" name="singleUploadForm">
+					<input id="singleFileUploadInput" type="file" name="file"
+						class="file-input" required />
+					<button type="submit" class="primary submit-btn">Read</button>
+				</form>
+				
+			</div>
+			<div class="upload-response">
+					<div id="singleFileUploadError"></div>
+					<div id="singleFileUploadSuccess"></div>
+				</div>
+		</div>
+	</div>
+
+	<div id="footer"></div>
+
+	<script src="/main.js"></script>
+</body>
+</html>
